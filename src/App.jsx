@@ -13,9 +13,9 @@ function App() {
                     initial={{ y: -50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="text-4xl md:text-6xl font-bold text-white text-center"
+                    className="text-5xl md:text-8xl font-bold text-white text-center"
                 >
-                    Coming Soon
+                    Karunakar Raunak
                 </motion.h1>
             </motion.div>
         </div>
