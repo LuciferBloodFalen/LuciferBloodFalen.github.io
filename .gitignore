@@ -88,4 +88,9 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# Development scripts
+run.sh
+start.sh
+dev.sh
+
 notes.txt

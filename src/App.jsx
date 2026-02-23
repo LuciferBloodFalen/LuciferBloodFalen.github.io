@@ -1,23 +1,29 @@
 import { motion } from 'framer-motion'
+import { Navbar, Footer } from './components'
+import { Hero, About, Skills, Projects, Contact } from './sections'
 
 function App() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900">
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-                className="flex items-center justify-center min-h-screen"
-            >
-                <motion.h1
-                    initial={{ y: -50, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="text-5xl md:text-8xl font-bold text-white text-center"
-                >
-                    Karunakar Raunak
-                </motion.h1>
-            </motion.div>
+            <Navbar />
+
+            {/* Hero Section */}
+            <Hero />
+
+            {/* About Section */}
+            <About />
+
+            {/* Skills Section */}
+            <Skills />
+
+            {/* Projects Section */}
+            <Projects />
+
+            {/* Contact Section */}
+            <Contact />
+
+            {/* Footer */}
+            <Footer />
         </div>
     )
 }
